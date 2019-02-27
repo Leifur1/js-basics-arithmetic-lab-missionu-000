@@ -15,3 +15,5 @@ const ageIsValid = Number.isInteger(currentAge);
 let randomNumber = Math.random(1, 20);
 
 let randomInteger = Math.floor(randomNumber);
+
+let randomUserID = Math.random(1000000001, 1000000020)
