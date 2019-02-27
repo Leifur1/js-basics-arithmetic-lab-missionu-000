@@ -12,4 +12,6 @@ let newID = oldID + 1000000000;
 
 const ageIsValid = Number.isInteger(currentAge);
 
-let randomNumber = Math.random(1, 20)
+let randomNumber = Math.random(1, 20);
+
+let randomInteger = randomNumber.round()
